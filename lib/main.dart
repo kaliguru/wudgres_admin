@@ -13,6 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutteradd',
       theme: ThemeData(
+<<<<<<< HEAD
+=======
+
+>>>>>>> d7df46d1cad78a0e2d5803a378642ada3c39c9e3
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
@@ -39,23 +43,32 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
+
       _counter++;
     });
   }
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
       ),
       body: Center(
         child: Column(
+=======
+
+    return Scaffold(
+      appBar: AppBar(
+
+        title: Text(widget.title),
+      ),
+      body: Center(
+
+        child: Column(
+
+>>>>>>> d7df46d1cad78a0e2d5803a378642ada3c39c9e3
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
