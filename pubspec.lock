@@ -49,7 +49,11 @@ packages:
       name: fake_async
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "1.3.1"
+=======
+    version: "1.3.0"
+>>>>>>> 455f511179d22482f483b381fa93ba9ed10652a4
   firebase_auth:
     dependency: "direct main"
     description:
@@ -65,14 +69,22 @@ packages:
     source: hosted
     version: "6.6.0"
   firebase_auth_web:
+<<<<<<< HEAD
     dependency: "direct main"
+=======
+    dependency: transitive
+>>>>>>> 455f511179d22482f483b381fa93ba9ed10652a4
     description:
       name: firebase_auth_web
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.3.0"
   firebase_core:
+<<<<<<< HEAD
     dependency: transitive
+=======
+    dependency: "direct main"
+>>>>>>> 455f511179d22482f483b381fa93ba9ed10652a4
     description:
       name: firebase_core
       url: "https://pub.dartlang.org"
@@ -169,7 +181,11 @@ packages:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "1.8.2"
+=======
+    version: "1.8.1"
+>>>>>>> 455f511179d22482f483b381fa93ba9ed10652a4
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -223,7 +239,11 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "0.4.12"
+=======
+    version: "0.4.9"
+>>>>>>> 455f511179d22482f483b381fa93ba9ed10652a4
   typed_data:
     dependency: transitive
     description:
