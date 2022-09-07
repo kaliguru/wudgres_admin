@@ -6,12 +6,12 @@ class AuthService {
   //Handle Authentication
   handleAuth() {
     return StreamBuilder(
-      stream: FirebaseAuth.instance.onAuthStateChanged,
+      stream: FirebaseAuth.instance.authStateChanges(),
       builder: (context, snapshot) {
         if (snapshot.hasData) {
-          return HomePage();
+          return const Text('Home');
         } else {
-          return LoginPage();
+          return const Text('Login');
         }
       },
     );
