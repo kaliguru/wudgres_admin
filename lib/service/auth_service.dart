@@ -1,17 +1,19 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
 import 'package:flutter/material.dart';
+import 'package:wudgres_admin_final/View/Screens/HomeScreen/HomeScreen.dart';
+import 'package:wudgres_admin_final/View/Screens/LoginScreen/LoginScreen.dart';
 
 class AuthService {
   //Handle Authentication
   handleAuth() {
     return StreamBuilder(
-      stream: FirebaseAuth.instance.onAuthStateChanged,
+      // stream: FirebaseAuth.instance.onAuthStateChanged,
       builder: (context, snapshot) {
         if (snapshot.hasData) {
-          return HomePage();
+          return HomeScreen();
         } else {
-          return LoginPage();
+          return LoginScreen();
         }
       },
     );
