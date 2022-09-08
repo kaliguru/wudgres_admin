@@ -38,6 +38,8 @@ dependencies:
 
   firebase_auth:
   firebase_auth_web:
+  firebase_core:
+  cloud_firestore: ^3.4.6
 
 
 

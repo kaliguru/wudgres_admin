@@ -1,8 +1,18 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+
 import 'View/Screens/SplashScreen/SplashScreen.dart';
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
+Future<void> main() async {
+  await WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: FirebaseOptions(
+        apiKey: "AIzaSyCoTedYWvsePC7PhDSdsLCyzznNsUjPjgc",
+        appId: "1:413461563501:web:253d8a39a6e55145c19764",
+        messagingSenderId: "413461563501",
+        projectId: "wudgres-admin"),
+  );
+
   runApp(const MyApp());
 }
 
